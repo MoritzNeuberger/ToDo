@@ -1,0 +1,21 @@
+Inhaltlich
+
+(Tier 4 Daten, Makros schreiben)
+- Spektrum auftragen mit Hilfe von Makro vorbereitet in Meeting: um 514keV Peak von 480 ~ 560keV
+  - Spektrum von BEGe's bzw. von COAX (Unterschiedliche Genauigkeit der Sensoren betrachten)
+  - verschiedene Cuts: (mui und multiplicity) und LAr-Trigger (Effekte von Filtern)
+- Punkte um 514keV ohne LAr-Flag heraussuchen und nach Beta aus Zerfall in triggerLAr suchen (40-100keV)
+  - Lichtblitz O(1 muis) in Histogram (Events auf Zeit) mit t=0 bei Event in Germanium + Fit
+  --> Veto für tatsächlichen Kr90 Zerfall (?)
+- Gauß-Fits um 511keV und 514keV Peaks ohne Filter um Unterscheidbarkeit zu zeigen (wird für Monte-Carlo Simulation verwendet (?)) #
+
+Organisation
+
+- GerLA-Interface ausprobieren und überprüfen, ob nützlich
+  - Variable setzen (siehe Makro von Christoph), GerLA [+ keylist](findet man in meta)
+- "Anmeldung für Bachelorstudenten" mitbringen
+- C++ Kurs bei EDX
+- gitlab einarbeiten
+- root: mehr einarbeiten (z.B. Trees, Histogramme)
+- Proseminar:
+  - Teilchenphysik ohne Beschleuniger
