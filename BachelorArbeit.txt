@@ -13,10 +13,17 @@ Organisation
 
 - GerLA-Interface ausprobieren und überprüfen, ob nützlich
   - Variable setzen (siehe Makro von Christoph), GerLA [+ keylist](findet man in meta)
+<<<<<<< HEAD
 - "Anmeldung für Bachelorstugenten" mitbringen
+=======
+- "Anmeldung für Bachelorstudenten" mitbringen
+>>>>>>> e0ffd9e1866ca61e0be7ee14807cd75b72a96d60
 - C++ Kurs bei EDX
 - gitlab einarbeiten
 - root: mehr einarbeiten (z.B. Trees, Histogramme)
 - Proseminar:
   - Teilchenphysik ohne Beschleuniger
+<<<<<<< HEAD
 asdfasdfsdfasdf
+=======
+>>>>>>> e0ffd9e1866ca61e0be7ee14807cd75b72a96d60
