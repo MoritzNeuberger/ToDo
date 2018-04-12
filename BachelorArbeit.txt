@@ -1,3 +1,31 @@
+Erste Zusammenfassung:
+
+
+From a the number of counts in the Kr85 514 keV line together with the expected efficiency from simulations we can derive the specific Kr85 activity of our argon.
+    - Specific activity is the activity per quantity of a radionuclide
+    - 514 keV line is a unlikely beta decay of the Kr85, energy of the beta particle is (avg: 48keV, max: 173keV) [https://ehs.ucsd.edu/rad/radionuclide/Kr-85.pdf]
+
+In principle we could see the Kr85 beta in the argon before the gamma is registered in the germanium detector.
+    - because the signal in the scintillator is earlier than the signal in the germanium detector
+The Rb85 state has a lifetime of about 1mus.
+    - Rb85 in itself is stable, the excited state takes 1mus to decay a photon is this is the order of magnitude of the time difference between the signals
+The 50 keV (mean energy) of this beta might be tricky to see.
+    - almost background level
+However it is worth looking into this "pre"-coincidence.
+    - filter actual Kr85 events
+
+Furthermore, the "decay" of our Ar39/Kr85 continuum will give us a further handle on the Kr85.
+    - The beta spectra are to similar (especially taking dead layer effects into account) to disentangle them.
+    -> However, the decay will be pretty sensitive to the composition.
+      - Kr85 has only 10 yr halflife. Within 2 years of GERDA data the Kr85 should decrease by about 25%.
+      - For Ar39 with a halflife of about 270 yr this is not the case.
+We see this decay and I am sure we have enough statistics in this part of the spectrum to derive a number.
+
+If we have time we could extend the "pre"-coincidence analysis to search for BiPo's.
+This is something we can discuss once we are there.
+
+
+
 Inhaltlich
 
 (Tier 4 Daten, Makros schreiben)
@@ -6,7 +34,7 @@ Inhaltlich
   - verschiedene Cuts: (mui und multiplicity) und LAr-Trigger (Effekte von Filtern)
 - Punkte um 514keV ohne LAr-Flag heraussuchen und nach Beta aus Zerfall in triggerLAr suchen (40-100keV)
   - Lichtblitz O(1 muis) in Histogram (Events auf Zeit) mit t=0 bei Event in Germanium + Fit
-  --> Veto für tatsächlichen Kr90 Zerfall (?)
+  -> Veto für tatsächlichen Kr90 Zerfall (?)
 - Gauß-Fits um 511keV und 514keV Peaks ohne Filter um Unterscheidbarkeit zu zeigen (wird für Monte-Carlo Simulation verwendet (?)) #
 
 Organisation
@@ -16,6 +44,4 @@ Organisation
 - "Anmeldung für Bachelorstudenten" mitbringen
 - C++ Kurs bei EDX
 - gitlab einarbeiten
-- root: mehr einarbeiten (z.B. Trees, Histogramme)
-- Proseminar:
-  - Teilchenphysik ohne Beschleuniger
+- root: mehr einarbeiten (z.B. Trees, Histogramme,Fits)
